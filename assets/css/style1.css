@@ -179,3 +179,99 @@ margin: 10px;
 #submit:hover{ 
 background-color: #5E7F7E;
 }
+
+/*portfolio page css*/
+
+/*portfolio images*/
+
+/*hangman square*/
+#figure1, #figure2, #figure3, #figure4, #figure5 {
+  position: relative;
+  height: 200px;
+  width: 264px;
+  outline: 1px solid black;
+}
+
+#figure1 {
+  left: -30px;
+}
+
+#figure2 {
+  right: -300px;
+  top:-215px;
+}
+
+#figure3 {
+  top: -200px;
+  left: -30px;
+}
+
+#figure4 {
+  right: -300px;
+  top: -415px;
+}
+
+#figure5 {
+  left: -30px;
+  top: -400px;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 10%;
+  margin: 0;
+  line-height: 200%;
+  width: 264px;;
+  
+}
+/*blue boxes with white text in them*/
+.container1 {
+ color: white;
+ font-size: 24px;
+ font-family: "Georgia", Times, Times New Roman, serif;
+ background: #4aaaa5;
+ padding: 20px;
+ padding-right: 80px;
+ padding-left: 80px;
+}
+
+.container2 {
+  color: white;
+  font-size: 24px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background: #4aaaa5;
+  padding: 20px;
+  padding-right: 75px;
+  padding-left: 75px;
+ }
+
+ .container3 {
+  color: white;
+  font-size: 24px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background: #4aaaa5;
+  padding: 20px;
+  padding-right: 68px;
+  padding-left: 68px;
+ }
+
+ .container4 {
+  color: white;
+  font-size: 24px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background: #4aaaa5;
+  padding: 20px;
+  padding-right:25px;
+  padding-left: 25px;
+ }
+
+ .container5 {
+  color: white;
+  font-size: 24px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background: #4aaaa5;
+  padding: 20px;
+  padding-right: 27px;
+  padding-left: 27px;
+ }
+
