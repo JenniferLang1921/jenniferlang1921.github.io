@@ -187,96 +187,61 @@ background-color: #5E7F7E;
 
 /*portfolio page css*/
 
-/*portfolio images*/
-
-/*hangman square*/
-#figure1, #figure2, #figure3, #figure4, #figure5 {
+.work {
   position: relative;
- 
-  width: 264px;
-  outline: 1px solid black;
   float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
-#figure1 {
-  left: -30px;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-#figure2 {
-  right: -300px;
-  top:-215px;
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
 }
 
-#figure3 {
-  top: -200px;
-  left: -30px;
-}
-
-#figure4 {
-  right: -300px;
-  top: -415px;
-}
-
-#figure5 {
-  left: -30px;
-  top: -400px;
-}
-
-figcaption {
+.work h3 {
   position: absolute;
-  bottom: 10%;
-  margin: 0;
-  line-height: 200%;
-  width: 264px;;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+/*media queries*/
+
+ @media screen and (max-width: 980px) and (min-width: 520px) {
   
-}
-/*blue boxes with white text in them*/
-.container1 {
- color: white;
- font-size: 24px;
- font-family: "Georgia", Times, Times New Roman, serif;
- background: #4aaaa5;
- padding: 20px;
- padding-right: 80px;
- padding-left: 80px;
+  * {
+    width: 100%;
+      
+  }
 }
 
-.container2 {
-  color: white;
-  font-size: 24px;
-  font-family: "Georgia", Times, Times New Roman, serif;
-  background: #4aaaa5;
-  padding: 20px;
-  padding-right: 75px;
-  padding-left: 75px;
+@media screen and (max-width: 768px) and (min-width: 520px) {
+  * {
+    margin-right: 30px;
+     
  }
+}
 
- .container3 {
-  color: white;
-  font-size: 24px;
-  font-family: "Georgia", Times, Times New Roman, serif;
-  background: #4aaaa5;
-  padding: 20px;
-  padding-right: 68px;
-  padding-left: 68px;
- }
+@media screen and (max-width: 640px) and (min-width: 520px) {
+  * {
+     margin-right: 30px;
+     #masthead {
+      position: static;
+      
+  }
+}
 
- .container4 {
-  color: white;
-  font-size: 24px;
-  font-family: "Georgia", Times, Times New Roman, serif;
-  background: #4aaaa5;
-  padding: 20px;
-  padding-right:25px;
-  padding-left: 25px;
- }
-
- .container5 {
-  color: white;
-  font-size: 24px;
-  font-family: "Georgia", Times, Times New Roman, serif;
-  background: #4aaaa5;
-  padding: 20px;
-  padding-right: 27px;
-  padding-left: 27px;
- }
