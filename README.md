@@ -1,2 +1,4 @@
-# jenniferlang1921.github.io
-portfolio website page
+#https://jenniferlang1921.github.io/
+
+
+A professional about me page, portfolio of my coding projects, and a contact form.  
