@@ -1,0 +1,179 @@
+/*COLOR PALETTE
+#F5F5F5  white smoke
+#0F2645  navy
+#C2C2C2  grey
+#FFFFFF  white
+#0079FA  Egyptian blue
+green and brown in photos
+*/
+/*GOOGLE FONTS
+font-family: 'Prata', serif;
+*/
+
+
+.parallax-container {
+  height: "100%";
+   
+  }
+   
+ 
+ 
+   nav {
+     
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: .05em;
+     cursor: pointer;
+     
+   }
+ 
+   #logo {
+     display: inline-block;
+     height: 55px;
+     width: 55px;
+     vertical-align: middle;
+    
+   }
+ 
+   h1, h2, h3, h5, h6 {
+     font-family: 'Prata', serif;
+   }
+
+   .overlay {
+    width: 100%;
+  }
+ 
+   #blue-line {
+   border-bottom: .1em solid #0079FA; 
+ }
+ 
+ 
+ .name {
+   margin-top: 150px;
+   margin-right: 25px;
+   font-family: 'Prata', serif;
+ }
+ 
+ #giphy {
+   margin-top: 20px;
+   margin-right: 80px;
+ }
+ #webdev {
+   color: #0F2645 !important;
+
+ }
+ 
+ 
+ .description {
+   font-size: 1.5em;
+ }
+
+ .quote {
+  font-family: 'Prata', serif;
+  color:#C2C2C2;
+  font-size: 2em;
+  letter-spacing: .2em; 
+  background-color: rgba(15, 38, 69, 0.6) !important;
+  padding: 20px;
+  margin-top: 150px;
+
+ }
+   
+ 
+   i {
+     font-size: 2em !important;
+     letter-spacing: .5em;   
+   }
+ 
+   i:hover {
+     color: #0079FA !important;
+   }
+  
+  
+
+
+   #about, #portfolio, #resume, #skills {
+padding-top: 50px;
+
+   }
+   .profile {
+     margin-bottom: 100px;
+   }
+ #portfolio-image {
+   height: 250px;
+   width: 300px;  
+ }
+
+ 
+/*resume*/
+  .resume-container {
+    background-color: #F5F5F5 !important;
+    margin-bottom: 50px;
+  } 
+  
+  #resume {
+    padding: 40px;
+    background-color: #F5F5F5 !important;
+    margin-bottom: 50px;
+  }
+
+  #resume_text {
+    font-size: 1.2em;
+  }
+ 
+ #skills {
+   margin-top: 20px;
+ }
+  #skillbox {
+  
+    color:  #0079FA;
+    font-size: 1.5em;
+  }
+
+  #skill_icon {
+    color: #0F2645 !important;
+    font-size: 3em !important;
+  }
+   
+ /*footer*/
+ footer, .btn { 
+   background-color: #0F2645 !important;  
+   
+ }
+
+ .btn {
+   margin-top: 25px;
+ }
+
+#contact_info {
+  padding: 5px;
+}
+
+
+
+/*media queries*/
+/*desktop*/
+@media screen and (max-width: 980px) and (min-width: 768px) {
+  img {
+     
+    width: 150px;
+    height: 150px;
+
+}
+}
+ 
+/* wide phone*/
+@media screen and (max-width: 415px) and (min-width: 0px) {
+  
+     
+  #skillbox { 
+   font-size: 8px !important;
+}
+#skill_icon {
+  font-size: 1em !important;
+}
+
+
+}
+
+

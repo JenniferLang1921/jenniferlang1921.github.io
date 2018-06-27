@@ -1,78 +1,510 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    
-    <head>
-        <meta charset="UTF-8">
-        <title>About Me Page</title>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Linking CSS -->
-        <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/> -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style1.css"/>
-  
-    </head>
+<html lang="en">
 
-    <body>
-      
-      
-            <header id="masthead">
-              <div class="container">
-                <a href="index.html" id="name">Jennifer Lang</a>
-              <nav>
-                  <a class="about" href="index.html">About</a>
-                  <a class="portfolio" href="portfolio.html">Portfolio</a> 
-                <a class="contact" href="contact.html">Contact</a> 
-              </nav>
-             </div>
-            </header>
+<head>
 
-            <div id="main-container" class="container">
-            <section class="main-section">
-                <h1>About Me</h1>
-                <img class="profile" src="assets/images/JenniferLangprofilepic.JPG" alt="Jennifer Lang">
-              
-         
-               
-                    
-                   <p>Hello, my name is Jennifer Lang. I create simple, beautiful, and functional websites. When I'm not coding, you'll find me painting, reading a book, or exploring the great outdoors.</p>
-                    
-              
-        </section>
-           
-            
-<aside>
-  <div id="connect">                  
-      
- <h2>Connect with Me</h2> 
- 
- 
-  <!--Email Link-->
-  <a href="mailto:jenniferlang1921@gmail.com">
-  <img id="email" src="assets/images/if_email_328857.png" alt="email" class="social"></a>
- 
-  <!--Github Link-->
-   <a href="https://github.com/JenniferLang1921">
-    <img src="assets/images/if_github_328850.png" alt="github link" class="social"> </a>
-    
- <!--Stack Overflow-->
-   
-   <a href="https://stackoverflow.com/users/8999239/jennifer-lang">
-    <img src="assets/images/if_overflow_386674.png" alt="Stack Overflow Link" class="social"></a>
-    
-   
-   <!--Linked In Link-->
-   <a href="https://www.linkedin.com/in/jennifer-lang-5017aa126">
-    <img src="assets/images/if_linkedin_328860.png" alt="linkedin link" class="social"> </a>
-   </div>  
-  </aside>
-  </div>          
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/JL-logo.png">
+  <title>Jennifer Lang | Web Developer</title>
+  <meta charset="utf-8">
+  <!-- View Port Size -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Materialize - Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <!-- Materialize - Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Prata" rel="stylesheet">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <meta property="og:image" content="assets/images/bubbles.jpg" />
 
-</div>
-      <footer>
-        <div class="container">
-        <h5>Copyright © 2018 Jennifer Lang</h5>
+</head>
+
+<body data-spy="scroll" data-target="#navbar1" offset=70>
+
+  <!--NavBar-->
+
+  <div class="navbar-fixed">
+    <nav class="white">
+      <div class="nav-wrapper">
+
+
+        <a href="index.html" class="brand-logo">
+          <img class="responsive-img" id="logo" src="assets/images/JL-logo.png" />
+        </a>
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons black-text">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#about" class="black-text">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="black-text">Portfolio</a>
+          </li>
+          <li>
+            <a href="#resume" class="black-text">Resume</a>
+          </li>
+          <li>
+            <a href="#skills" class="black-text">Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="black-text">Contact</a>
+          </li>
+        </ul>
       </div>
-      </footer>
-        </body>
+    </nav>
+  </div>
+
+  <!--Intro-->
+
+  <div class="parallax-container">
+
+
+    <h1 class="name white-text overlay right-align">
+      <span id="blue-line">
+        Jennifer Lang
+
+
+        <p id="giphy">
+
+          <iframe src="https://giphy.com/embed/3GBT1gl1eBtAl6AIgA" width="240" height="80" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <p>
+            <a href="https://giphy.com/gifs/web-dev-3GBT1gl1eBtAl6AIgA"></a>
+          </p>
+
+      </span>
+    </h1>
+
+
+    <div class="parallax">
+
+      <img class="parallax-image" src="assets/images/bubbles.jpg">
+    </div>
+
+
+  </div>
+
+  <div class="container">
+    <h1 id="webdev">
+      <strong>Full Stack Web Developer</strong>
+    </h1>
+  </div>
+  <!--About-->
+  <div class="container white" id="about">
+    <div class="row">
+
+      <h3>
+        <span id="blue-line">About</span>
+      </h3>
+      <p class="grey-text text-darken-3 lighten-3">
+
+        <div class="col s6">
+
+
+          <p class="description">Hello, my name is Jennifer Lang. I create simple, beautiful, and functional websites. When I'm not coding, you'll
+            find me painting, reading a book, or exploring the great outdoors.</p>
+
+
+
+        </div>
+
+        <div class="col s6">
+          <div class="right">
+
+            <img class="profile responsive-img circle right" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="300" height="300">
+
+
+
+
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+
+
+
+  <div class="parallax-container">
+
+    <div class="valign-wrapper h100">
+
+      <p class="quote white-text overlay center-align">
+        Creativity is inventing, experimenting,
+        <br>growing, taking risks, breaking rules,
+        <br>making mistakes and having fun.
+        <br> ~ Mary Lou Cook
+
+      </p>
+
+      <div class="parallax">
+        <img class="parallax-image" src="assets/images/path.jpg">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!--Portfolio-->
+
+  <div class="container" id="portfolio">
+    <div class="row">
+      <!--Ted Talks Website-->
+      <h3>
+        <span id="blue-line">Portfolio</span>
+      </h3>
+      <div class="col s12 m12 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="portfolio-image" class="activator" src="assets/images/ted-talks.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Ted Talks Web Scraper
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://ted-talks-ideas-article-scrape.herokuapp.com/articles">website</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Ted Talks Web Scraper
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Backend Tech: Node, Express, Cheerio, Mongo Database, Mongoose, Body-Parser, Request, Morgan</p>
+
+            <p>Frontend Tech: Javascript, Jquery, Materialize, HTML5, Handlebars</p>
+            <a class="right" href="https://github.com/JenniferLang1921/Ted-Talk-Ideas-Scraper">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Binge Watcher Website-->
+      <div class="col s12 m12 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="portfolio-image" class="activator" src="assets/images/binge-watcher.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Binge Watcher
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://binge-watcher.herokuapp.com/">website</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Binge Watcher
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Backend Tech: Node, Express, mySQL Database, Sequilize, Express, Nightmare Testing, Mocha Testing</p>
+
+            <p>Frontend Tech: Javascript, Jquery, Bootstrap, HTML5, API's, Anime.js, Handlebars, Scroll.js, Passport.js</p>
+            <a class="right" href="https://github.com/JenniferLang1921/Binge-Watcher">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Music Concierge Website-->
+      <div class="col s12 m12 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="portfolio-image" class="activator" src="assets/images/musicconcierge.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Music Concierge
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://jenniferlang1921.github.io/Music-Concierge/">website</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Music Concierge
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Tech Used: Jquery, API keys, Bootstrap</p>
+            <a class="right" href="https://github.com/JenniferLang1921/Music-Concierge">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!--Eat-Da-Burger Website-->
+      <div class="col s12 m12 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="portfolio-image" class="activator" src="assets/images/eatdaburger.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Eat-Da-Burger
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://salty-ravine-33985.herokuapp.com/">website</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Eat-Da-Burger
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Backend Tech: Node.js, Express, mySQL, ORM</p>
+
+            <p> Frontend Tech: Javascript, Jquery, Bootstrap, HTML5, Handlebars</p>
+            <a class="right" href="https://github.com/JenniferLang1921/Burger">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Trivia Game Website-->
+      <div class="col s12 m12 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="portfolio-image" class="activator" src="assets/images/triviagame.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Trivia Game
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://jenniferlang1921.github.io/TriviaGame/">website</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Trivia Game
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Technologies Used: Javascript, Jquery, CSS, Bootstrap, HTML5</p>
+            <a class="right" href="https://github.com/JenniferLang1921/TriviaGame">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Friend Finder Website-->
+      <div class="col s12 m12 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="portfolio-image" class="activator" src="assets\images\clickgame.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Click Game
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://jenniferlang1921.github.io/click-game/">website</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Click Game
+              <i class="material-icons right">close</i>
+            </span>
+
+            <p>Backend Tech: Babel, Webpack</p>
+            <p> Frontend Tech: React.js, ES6, JSX, Bootstrap, HTML5</p>
+            <a class="right" href="https://github.com/JenniferLang1921/click-game">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--Resume-->
+  <div class="container" class="resume-container" id="resume">
+    <div class="row">
+      <h3>
+        <span id="blue-line">Resume</span>
+      </h3>
+
+
+      <div id="resume_text">
+        <h4>Education</h4>
+        <p>University of Kansas | Javascript Full Stack Web Development Certificate | July 2018 </p>
+
+        University of Kansas | Bachelor of Music Education
+        <br>Elementary Music, Band, Orchestra, and Choir;
+        <br>GPA 3.64 Earned 20 graduate credits in the education field
+
+
+        <h4>Experience</h4>
+        <p>Administrative Specialist | KS Insurance Department and KS Securities Commissioner | Jan 2017 to Current
+          <br>Finance Writer, Social Media, Graphic Design, Event Planning, Investor Education, Editing, Public Speaking, Event
+          Planning, Adobe Illustrator, Series 63 Finance Exam</p>
+
+        <p>Real Estate Marketing | At Home Kansas | 2007 to 2009
+          <br>Online marketing, Blogging, Social media, Website updates, HTML, SEO Marketing, Background Searches</p>
+
+        <p>Other Jobs: Business Owner, Accountant, Music Teacher, Musical Director, Credit Bureau Manager/Investigator</p>
+      </div>
+
+
+      <!--Skills-->
+      <div id="skills">
+
+
+        <h4>Skills</h4>
+        <div class="row">
+          <div class="col s4">
+
+            <h4 id="skill_icon" class="center-align">
+              <i class="fas fa-laptop"></i>
+            </h4>
+            <ul id="skillbox">
+
+              <li>Javascript</li>
+              <li>Jquery</li>
+              <li>React.js</li>
+              <li>Mongo Database </li>
+              <li>MYSQL Database</li>
+              <li>Node.js</li>
+              <li>API's</li>
+            </ul>
+          </div>
+
+          <div class="col s4">
+
+            <h4 id="skill_icon" class="center-align">
+              <i class="fas fa-paint-brush"></i>
+            </h4>
+            <ul id="skillbox">
+
+              <li>Bootstrap</li>
+              <li>Materialize</li>
+
+              <li>Adobe Illustrator</li>
+              <li>Graphic Design</li>
+              <li>CSS</li>
+              <li>Anime.js
+                <li>
+            </ul>
+          </div>
+
+          <div class="col s4 ">
+            <h4 id="skill_icon" class="center-align">
+              <i class="fas fa-users "></i>
+            </h4>
+
+            <ul id="skillbox">
+
+              <li>Finance</li>
+              <li>Public Speaking</li>
+              <li>Teaching</li>
+              <li>SEO Marketing </li>
+              <li>Writing </li>
+              <li>Research</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-align">
+        <a href="assets/images/Jennifer_Lang_Resume.pdf" class="waves-effect waves-light btn" download>
+          <i class="material-icons right">file_download</i>Download Resume</a>
+      </div>
+      <br>
+
+    </div>
+
+
+  </div>
+
+
+  <!--Footer-->
+  <footer class="page-footer" id="contact">
+    <div class="container">
+      <div class="row">
+
+        <h5 class="white-text" id="connect">
+          <span id="blue-line">Contact</span>
+        </h5>
+        <ul>
+          <li id="contact_info" class="grey-text text-lighten-4">
+            <i class="fas fa-user"></i>Jennifer Lang</li>
+
+          <li id="contact_info" class="grey-text text-lighten-4">
+            <i class="fas fa-phone"></i>785-393-5613</li>
+          <div class="col s6">
+            <li id="contact_info" class="grey-text text-lighten-4">
+              <a href="mailto:jenniferlang1921@gmail.com">
+                <i class="fas fa-envelope"></i>jenniferlang1921@gmail.com</li>
+            </a>
+
+            <li id="contact_info" class="grey-text text-lighten-4">
+              <i class="fab fa-fort-awesome"></i>Lawrence, Ks</li>
+        </ul>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="col s6">
+          <p> * thanks to giphy for use of their gif creator</p>
+          © Copyright 2018 Jennifer Lang
+          <div class="col s6">
+            <a class="grey-text text-lighten-4 right" href="mailto:jenniferlang1921@gmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/JenniferLang1921">
+              <i class="fab fa-github"></i>
+            </a>
+            <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/jenniferlang1921/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="grey-text text-lighten-4 right" href="https://stackoverflow.com/users/8999239/jennifer-lang">
+              <i class="fab fa-stack-overflow"></i>
+            </a>
+            <a class="grey-text text-lighten-4 right" href="https://www.behance.net/jenniferlab1d4">
+              <i class="fab fa-behance"></i>
+            </a>
+            <a class="grey-text text-lighten-4 right" href="https://docs.google.com/document/d/1oj_LMDkiMEg79G55I3t3d9zTTyjuPKCrrP0y_EwCDqU/edit?usp=sharing">
+              <i class="far fa-address-card"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+  </footer>
+
+
+  <!-- Link in jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <!-- Basic Page JavaScript for Repsonsiveness -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
 
 </html>
